@@ -1,0 +1,23 @@
+{
+  "autoload":{
+    "psr-4":{
+      "App\\":"class\\"
+    }
+  },
+  "require":
+  {
+
+    "mpdf/mpdf":"v6.1.1",
+    "phpclasses/php-crud-mysql": ">=1.0.0"
+  },
+  "repositories":
+  [
+    {
+      "type": "composer",
+      "url": "https:\/\/www.phpclasses.org\/"
+    },
+    {
+      "packagist": false
+    }
+  ]
+}
